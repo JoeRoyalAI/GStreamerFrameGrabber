@@ -8,11 +8,13 @@
 
 #include "Barcode.h"
 
+#define MAX_NUMBER_OF_BARCODES 64
+
 static int decoderHandle = 0;
 
 static int numBarcodes = 0;
 
-BarcodeResult *barcodeResults[32] = {NULL};
+BarcodeResult *barcodeResults[MAX_NUMBER_OF_BARCODES] = {NULL};
 
 int dataLength = 0;
 int symbolType = 0;
@@ -26,8 +28,6 @@ char dataBuffer[DATA_BUFFER_SIZE];
 CRPOINT bound[4];
 CRPOINT unDecodeBound[4];
 CRPOINT center;
-
-int initDecoder(void);
 
 int OnResult(int handle);
 int OnStatus(int handle);
@@ -166,13 +166,13 @@ int OnResult(int handle)
 
     barcodeResult->time = decodeTime;
 
-    if (numBarcodes < 32)
+    if (numBarcodes < MAX_NUMBER_OF_BARCODES)
     {
         barcodeResults[numBarcodes++] = barcodeResult;
     }
     else
     {
-        fprintf(stderr, "Number of barcodes exceed limit of 32...");
+        fprintf(stderr, "Number of barcodes exceed limit of %d...\n", MAX_NUMBER_OF_BARCODES);
     }
 
     return 0;
@@ -200,11 +200,11 @@ int decode(const unsigned char *barcodeImage, int width, int height)
 
     CRPOINT barcodeTopLeft = {0, 0};
 
-    return decodeROI(barcodeImage, width, height, barcodeTopLeft, width, height);
+    return decodeWithROI(barcodeImage, width, height, barcodeTopLeft, width, height);
 
 }
 
-int decodeROI(const unsigned char *barcodeImage, int width, int height,
+int decodeWithROI(const unsigned char *barcodeImage, int width, int height,
               CRPOINT barcodeTopLeft, int barcodeWidth, int barcodeHeight)
 {
     return doCortexDecode(barcodeImage, width, height, barcodeTopLeft, barcodeWidth, barcodeHeight, decoderHandle);
@@ -215,7 +215,7 @@ int doCortexDecode(const unsigned char *image, int imageWidth, int imageHeight, 
 {
     int xd = 0, imgBufWidth = 0;
 #ifdef DUAL_FIELD
-    xd = xdim / 2;
+    xd = imageWidth / 2;
     imgBufWidth = xd;
 #else
     xd = 0;

@@ -27,9 +27,9 @@ typedef struct {
 
 int init();
 
-int decodeROI(const unsigned char *barcodeImage, int width, int height, CRPOINT barcodeTopLeft, int barcodeWidth, int barcodeHeight);
-
 int decode(const unsigned char *barcodeImage, int width, int height);
+
+int decodeWithROI(const unsigned char *barcodeImage, int width, int height, CRPOINT barcodeTopLeft, int barcodeWidth, int barcodeHeight);
 
 int getNumberOfBarcodes();
 
