@@ -1,0 +1,99 @@
+Processing barcode 0; TESTDM0050, with quality 100 and time 10 (ms)...
+Corner positions (837, 755), (1026, 761), (1021, 949), (833, 942), 
+Approximate location and size; (833, 755), 193 x 194
+
+Processing barcode 1; TESTDM0022, with quality 100 and time 11 (ms)...
+Corner positions (835, 513), (918, 515), (916, 599), (833, 597), 
+Approximate location and size; (833, 513), 85 x 86
+
+Processing barcode 2; TESTDM0017, with quality 100 and time 13 (ms)...
+Corner positions (1163, 553), (1227, 554), (1226, 620), (1161, 618), 
+Approximate location and size; (1161, 553), 66 x 67
+
+Processing barcode 3; TESTDM0030, with quality 100 and time 14 (ms)...
+Corner positions (835, 616), (948, 619), (945, 733), (832, 730), 
+Approximate location and size; (832, 616), 116 x 117
+
+Processing barcode 4; TESTDM0019, with quality 100 and time 15 (ms)...
+Corner positions (1165, 467), (1237, 469), (1236, 541), (1164, 540), 
+Approximate location and size; (1164, 467), 73 x 74
+
+Processing barcode 5; TESTDM0025, with quality 100 and time 17 (ms)...
+Corner positions (825, 966), (919, 968), (917, 1061), (823, 1058), 
+Approximate location and size; (823, 966), 96 x 95
+
+Processing barcode 6; TESTDM0020, with quality 100 and time 21 (ms)...
+Corner positions (837, 422), (912, 424), (910, 500), (834, 498), 
+Approximate location and size; (834, 422), 78 x 78
+
+Processing barcode 7; TESTDM0015, with quality 100 and time 23 (ms)...
+Corner positions (1161, 630), (1217, 632), (1216, 689), (1159, 687), 
+Approximate location and size; (1159, 630), 58 x 59
+
+Processing barcode 8; TESTDM0016, with quality 100 and time 24 (ms)...
+Corner positions (840, 267), (900, 268), (899, 328), (838, 327), 
+Approximate location and size; (838, 267), 62 x 61
+
+Processing barcode 9; TESTDM0014, with quality 100 and time 24 (ms)...
+Corner positions (841, 203), (894, 204), (892, 256), (839, 255), 
+Approximate location and size; (839, 203), 55 x 53
+
+Processing barcode 10; TESTDM0012, with quality 100 and time 24 (ms)...
+Corner positions (842, 146), (888, 147), (886, 193), (841, 191), 
+Approximate location and size; (841, 146), 47 x 47
+
+Processing barcode 11; TESTDM0010, with quality 100 and time 24 (ms)...
+Corner positions (843, 100), (880, 100), (880, 138), (842, 137), 
+Approximate location and size; (842, 100), 38 x 38
+
+Processing barcode 12; TESTDM0021, with quality 100 and time 27 (ms)...
+Corner positions (1168, 372), (1248, 374), (1245, 454), (1166, 452), 
+Approximate location and size; (1166, 372), 82 x 82
+
+Processing barcode 13; TESTDM0013, with quality 100 and time 28 (ms)...
+Corner positions (1158, 699), (1207, 700), (1207, 749), (1157, 748), 
+Approximate location and size; (1157, 699), 50 x 50
+
+Processing barcode 14; TESTDM0018, with quality 100 and time 29 (ms)...
+Corner positions (838, 340), (906, 341), (905, 410), (836, 408), 
+Approximate location and size; (836, 340), 70 x 70
+
+Processing barcode 15; TESTDM0010, with quality 100 and time 30 (ms)...
+Corner positions (1149, 978), (1187, 979), (1186, 1016), (1148, 1015), 
+Approximate location and size; (1148, 978), 39 x 38
+
+Processing barcode 16; TESTDM0008, with quality 100 and time 30 (ms)...
+Corner positions (1150, 939), (1180, 940), (1179, 971), (1149, 970), 
+Approximate location and size; (1149, 939), 31 x 32
+
+Processing barcode 17; TESTDM0009, with quality 100 and time 32 (ms)...
+Corner positions (1154, 810), (1188, 811), (1187, 846), (1153, 844), 
+Approximate location and size; (1153, 810), 35 x 36
+
+Processing barcode 18; TESTDM0011, with quality 100 and time 32 (ms)...
+Corner positions (1156, 759), (1198, 760), (1196, 802), (1155, 801), 
+Approximate location and size; (1155, 759), 43 x 43
+
+Processing barcode 19; TESTDM0025, with quality 100 and time 37 (ms)...
+Corner positions (1172, 261), (1266, 263), (1264, 358), (1170, 356), 
+Approximate location and size; (1170, 261), 96 x 97
+
+Processing barcode 20; TESTDM0050, with quality 100 and time 37 (ms)...
+Corner positions (1183, 51), (1371, 54), (1367, 240), (1179, 239), 
+Approximate location and size; (1179, 51), 192 x 189
+
+Processing barcode 21; TESTDM0007, with quality 60 and time 45 (ms)...
+Corner positions (1152, 851), (1179, 851), (1178, 880), (1152, 879), 
+Approximate location and size; (1152, 851), 27 x 29
+
+Processing barcode 22; TESTDM0008, with quality 100 and time 63 (ms)...
+Corner positions (843, 62), (874, 61), (873, 92), (843, 92), 
+Approximate location and size; (843, 61), 31 x 31
+
+Processing barcode 23; TESTDM0012, with quality 100 and time 63 (ms)...
+Corner positions (1148, 1025), (1193, 1026), (1192, 1070), (1147, 1069), 
+Approximate location and size; (1147, 1025), 46 x 45
+
+Processing barcode 24; TESTDM0006, with quality 60 and time 82 (ms)...
+Corner positions (843, 32), (867, 33), (865, 56), (843, 55), 
+Approximate location and size; (843, 32), 24 x 24

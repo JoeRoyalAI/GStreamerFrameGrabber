@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/CLionProjects/GStreamerFrameGrabber/Barcode.cpp
+stdio.h
+-
+Barcode.h
+/home/parallels/CLionProjects/GStreamerFrameGrabber/Barcode.h
+
+/home/parallels/CLionProjects/GStreamerFrameGrabber/Barcode.h
+crdDefs.h
+/home/parallels/CLionProjects/GStreamerFrameGrabber/crdDefs.h
+
+/home/parallels/CLionProjects/GStreamerFrameGrabber/crdDefs.h
+
