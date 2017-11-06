@@ -424,10 +424,10 @@ static GstFlowReturn new_sample(GstElement *sink, CustomData *data)
                 data->barcode_image = malloc(info.size);
                 memcpy(data->barcode_image, info.data, info.size);
 
+                // CRPOINT barcodeTopLeft = {935, 815};
+                // decodeWithROI((unsigned char *) data->barcode_image, data->width, data->height, barcodeTopLeft, 194, 194)
                 // Check for barcode.
-                // data->barcode = decode((unsigned char *) data->barcode_image, data->width, data->height);
-                CRPOINT barcodeTopLeft = {833, 755};
-                if (decodeROI((unsigned char *) data->barcode_image, data->width, data->height, barcodeTopLeft, 194, 194) == 0)
+                if (decode((unsigned char *) data->barcode_image, data->width, data->height) == 0)
                 {
                     data->is_valid_barcode = TRUE;
                     // GstStateChangeReturn ret = gst_element_set_state(data->pipeline, GST_STATE_PAUSED);
